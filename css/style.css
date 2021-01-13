@@ -1,0 +1,414 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.button_1{
+  height:38px;
+  background:red;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:black;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:black;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:red 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:red;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Users */
+
+#users{
+  background: black;
+  padding:20px 0;
+}
+
+/* Link */
+
+.link{
+  text-decoration: none;
+  background: red;
+  padding: 15px;
+  color: white;
+  margin-right: 10px;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../img/showcase.jpeg') no-repeat 0 ;
+  text-align:center;
+  color:#ffffff;
+  border-bottom:red 3px solid;
+}
+
+#aktuelno{
+  text-align: center;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+  color:red;
+}
+
+#showcase p{
+  font-size:20px;
+  color:red;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:black
+}
+
+
+
+#newsletter form{
+  margin-top:15px;
+  margin-left:1000px;
+}
+
+#newsletter form label{
+  font-size:30px;
+}
+
+#ddlKategorije{
+  padding:4px;
+  height:40px;
+  width:250px;
+}
+
+/* Glasanje */
+
+#glasanje{
+  float:right;
+  width:63%;
+}
+
+/* Poruka */
+
+.poruka{
+  border:1px solid red;
+  padding:20px;
+  margin-bottom:30px;
+}
+
+.korisnik{
+  text-align: right;
+}
+
+/* O meni */
+
+#autor{
+  float:left;
+  width: 35%;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:190px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* adminLinks */
+
+#aLinks li h3 a{
+  text-decoration: none;
+  color:red;
+}
+
+/* autoBrisanje */
+
+.autoBrisanje{
+  min-height: 30px;
+  float:right;
+}
+
+.clearfix{
+  clear: both;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  margin-top:130px;
+  padding:20px;
+  color:#ffffff;
+  background-color:red;
+  text-align: center;
+}
+
+/* Kontakt */
+
+.contact{
+  text-align:center;
+  font-size: 30px;
+}
+
+.contactForm{
+  margin: 0 auto;
+  width:300px;
+  text-align: center;
+}
+
+select{
+  width: 100%;
+  margin-top:15px;
+  margin-bottom: 50px;
+}
+
+input[type=text],input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+select{
+  height:40px;
+}
+
+#errors,#errors1{
+  width:200px;
+  margin:10px auto;
+  color:#e85151;
+}
+
+#errors ul li{
+    list-style-type: none;
+}
+#errors1 ul li{
+  list-style-type: none;
+}
+
+#contactP{
+  text-align: center;
+}
+
+/* Tables */
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* Formakomentar */
+
+#formaKomentar{
+  text-align: center;
+}
+
+#formaKomentar textarea{
+  width:60%;
+}
+
+.adminLink{
+  margin:100px 0;
+}
+
+/* Cars */
+
+.car{
+  border:2px solid red;
+  width:70%;
+  margin:30px auto;
+  min-height: 200px;
+  padding: 30px;
+  padding-bottom: 60px;
+}
+
+.car img{
+  float:left;
+  width:250px;
+  height: 150;
+}
+
+.tekst{
+  float: right;
+  width:60%;
+}
+
+.car h1{
+  margin:0;
+  margin-bottom:15px;
+}
+
+#addcar{
+  width:50%;
+  margin:0 auto;
+  text-align: center;
+}
+
+#addcar form textarea{
+  width:700px;
+}
+
+#textarea{
+  width:100%;
+  min-height: 100px;
+}
+
+/* Media Queries */
+
+@media(max-width: 1118px){
+  .car img{
+    float:none;
+    width:100%;
+  }
+  .tekst{
+    float:none;
+    width:100%;
+  }
+}
+
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  #autor{
+    width:100%;
+    float: none;
+  }
+
+  #glasanje{
+    float:none;
+    width:100%;
+  }
+  
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
