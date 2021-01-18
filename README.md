@@ -1,6 +1,6 @@
 # My third website
 
-In this website i based on PHP and AJAX. I used previous thinks i learned and wanted to upgrade knowledge to next level.
+In this website i based on PHP and AJAX. I used previous things i learned and wanted to upgrade knowledge to next level.
 
 Functionalities:
 
